@@ -1,3 +1,4 @@
+import { Footer } from "../components/footer/Footer";
 import { Header } from "../components/head/Header";
 
 export const ManagementCompany = () => {
@@ -5,6 +6,7 @@ export const ManagementCompany = () => {
     <>
       <Header />
       <h1>ManagementCompany</h1>
+      <Footer />
     </>
   );
 };

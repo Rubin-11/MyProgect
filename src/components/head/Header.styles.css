@@ -1,4 +1,8 @@
-.head_menu {
+header {
+  box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+
+.header_menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -12,11 +16,15 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  white-space: pre;
 }
-
 
 a:hover {
   background: #000;
   color: #fff;
   transition: 0.5s;
+}
+
+.header_button {
+  display: none;
 }
