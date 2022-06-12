@@ -87,6 +87,9 @@ video {
   vertical-align: baseline;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
+*, *::before, ::after {
+  box-sizing: border-box;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,

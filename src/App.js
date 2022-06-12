@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
 import { UsersOwner, ManagementCompany, Admin, Main, Registraton } from './screens';
+import './App.css';
 
 function App() {
   return (
