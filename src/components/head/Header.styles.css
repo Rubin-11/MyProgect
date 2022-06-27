@@ -10,13 +10,16 @@ header {
 }
 
 ul,
-li,
-a {
+li {
+  padding: 10px 20px;
+  font-weight: bold;
+  white-space: pre;
+}
+
+.HeaderNavLink {
   padding: 10px 20px;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
-  white-space: pre;
 }
 
 a:hover {

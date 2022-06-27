@@ -1,11 +1,12 @@
 // import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Button } from "../../elements/button/Button";
 import { Input } from "../../elements/input/Input";
 import "./FormEntrance.styles.css";
 
 export const FormEntrance = () => {
-  
-  return(
+
+  return (
     <main>
       <h2>Вход</h2>
       <form>
@@ -16,9 +17,11 @@ export const FormEntrance = () => {
         <div>
           <Button type={"submit"} text={"Вход"} />
           <Button type={"reset"} text={"Сбросить"} />
-          {/* <NavLink to="/registration" >Зарегистрироваться </NavLink> */}
+          <NavLink to="/entrance">
+            <Button type={"button"} text={"Зарегистрироваться"} />
+          </NavLink>
         </div>
       </form>
     </main>
   );
-}
+};

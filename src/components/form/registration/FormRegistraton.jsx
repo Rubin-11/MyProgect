@@ -5,14 +5,14 @@ import "./FormRegistraton.styles.css";
 export const FormRegistraton = () => {
   return (
     <main>
-      <h2>Вход</h2>
+      <h2>Зарегистрироваться</h2>
       <form>
         <Input type={"text"} placeholder={"Введите логин"} />
         <br />
         <Input type={"password"} placeholder={"Введи пароль"} />
         <br />
         <div>
-          <Button type={"submit"} text={"Вход"} />
+          <Button type={"submit"} text={"Регистрация"} />
           <Button type={"reset"} text={"Сбросить"} />
         </div>
       </form>

@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
+
 import  "./Header.styles.css";
 import  "./Header.styles.1050.css";
-
 
 export const Header = () => {
   return (
@@ -10,6 +10,7 @@ export const Header = () => {
         <ul className="header_menu">
           <li>
             <NavLink
+            className={"HeaderNavLink"}
               to="/"
               style={({ isActive }) => ({
                 color: isActive ? "#8DA653" : "#BFBFBF",
@@ -20,6 +21,7 @@ export const Header = () => {
           </li>
           <li>
             <NavLink
+            className={"HeaderNavLink"}
               to="/userowner"
               style={({ isActive }) => ({
                 color: isActive ? "#8DA653" : "#BFBFBF",
@@ -30,6 +32,7 @@ export const Header = () => {
           </li>
           <li>
             <NavLink
+            className={"HeaderNavLink"}
               to="/managementcompany"
               style={({ isActive }) => ({
                 color: isActive ? "#8DA653" : "#BFBFBF",
@@ -40,6 +43,7 @@ export const Header = () => {
           </li>
           <li>
             <NavLink
+            className={"HeaderNavLink"}
               to="/admin"
               style={({ isActive }) => ({
                 color: isActive ? "#8DA653" : "#BFBFBF",
@@ -50,12 +54,13 @@ export const Header = () => {
           </li>
           <li>
             <NavLink
+            className={"HeaderNavLink"}
               to="/registration"
               style={({ isActive }) => ({
                 color: isActive ? "#8DA653" : "#BFBFBF",
               })}
             >
-              Регистрация
+              Вход
             </NavLink>
           </li>
         </ul>

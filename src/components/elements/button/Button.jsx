@@ -1,7 +1,7 @@
 import "./Button.styles.css";
 
-export const Button = ({text, type}) => {
+export const Button = ({text, type, func}) => {
   return(
-    <button className="element__button" type={type}>{text}</button>
+    <button onClick={func} className="element__button" type={type}>{text}</button>
   );
 }

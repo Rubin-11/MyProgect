@@ -1,11 +1,12 @@
 import { Footer } from "../components/footer/Footer";
 import { Header } from "../components/head/Header";
+import { FormRegistraton } from "../components/form/registration/FormRegistraton";
 
-export const UsersOwner = () => {
+export const Entrance = () => {
   return (
     <>
       <Header />
-      <h1>UsersOwner</h1>
+      <FormRegistraton />
       <Footer />
     </>
   );

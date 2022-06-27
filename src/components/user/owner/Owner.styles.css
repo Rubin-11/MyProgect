@@ -1,0 +1,17 @@
+.owner__main {
+  display: flex;
+  height: 100%;
+}
+
+.owner__screen {
+  width: 100%;
+}
+
+.owner__menu {
+  width: 250px;
+  border-left: groove;
+}
+
+.owner__h1 {
+    margin: 50px 0px;
+}

@@ -1,0 +1,13 @@
+.owner__chat {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.owner__chat__text {
+    width: 600px;
+    min-height: 50px;
+    border-radius: 20px;
+    background-color: rgb(178, 178, 202);
+}
