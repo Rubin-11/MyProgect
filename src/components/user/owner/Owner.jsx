@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import "./Owner.styles.css";
 
 export const Owner = () => {
@@ -8,13 +8,34 @@ export const Owner = () => {
       <menu className="owner__menu">
         <ul>
           <li>
-            <Link to={"/userowner/order"}>Заявки</Link>
+            <NavLink
+              to={"/userowner/order"}
+              style={({ isActive }) => ({
+                color: isActive ? "#8DA653" : "#BFBFBF",
+              })}
+            >
+              Заявки
+            </NavLink>
           </li>
           <li>
-            <Link to={"/userowner/chat"}>Чат</Link>
+            <NavLink
+              to={"/userowner/chat"}
+              style={({ isActive }) => ({
+                color: isActive ? "#8DA653" : "#BFBFBF",
+              })}
+            >
+              Чат
+            </NavLink>
           </li>
           <li>
-            <Link to={"/userowner/owner"}>Моя страница</Link>
+            <NavLink
+              to={"/userowner/owner"}
+              style={({ isActive }) => ({
+                color: isActive ? "#8DA653" : "#BFBFBF",
+              })}
+            >
+              Моя страница
+            </NavLink>
           </li>
         </ul>
       </menu>
