@@ -34,7 +34,7 @@ export const Owner = () => {
                 color: isActive ? "#8DA653" : "#BFBFBF",
               })}
             >
-              Моя страница
+              Профиль
             </NavLink>
           </li>
         </ul>

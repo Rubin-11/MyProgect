@@ -6,3 +6,10 @@
     display: flex;
     justify-content: space-around;
 }
+ 
+.create_order {
+    width: 100%;
+}
+textarea {
+    resize: none;
+}
