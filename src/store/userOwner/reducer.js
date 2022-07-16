@@ -13,7 +13,7 @@ export const userOwnerReducer = (state = userOwner, action) => {
         case ADD_SURNAME: {
             return {
                 ...state,
-                surname: "Иванов"
+                surname: action.payload,
             }
         }
         default: 

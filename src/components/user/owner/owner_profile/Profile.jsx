@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import "./Profile.styles.css";
 
 export const Profile = () => {
-  const state = useSelector(state => state)
+  const state = useSelector(state => state);
   console.log(state);
   return (
     <div className="owner__profile">
